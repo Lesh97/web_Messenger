@@ -26,6 +26,10 @@
   border-radius: 3px;
   font-weight: 600;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   right: -5px;
+}
+
+.fa-circle-exclamation {
+  color: red;
 }
