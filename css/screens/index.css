@@ -1,0 +1,11 @@
+#index-body .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#index-body .status-bar {
+  z-index: 1;
+}
