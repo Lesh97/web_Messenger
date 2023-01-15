@@ -1,3 +1,20 @@
+#find-body .screen-header,
+#find-body .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#find-body .status-bar {
+  z-index: 2;
+}
+
+#find-body .screen-header {
+  z-index: 1;
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
@@ -33,6 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .open-post__tilte {
@@ -71,7 +89,18 @@
 }
 
 .open-post__members-status {
+  font-weight: 600;
   color: #ffb0e0;
+}
+
+.open-post__members-status-thirty {
+  font-weight: 600;
+  color: blue;
+}
+
+.open-post__members-status-hour {
+  font-weight: 600;
+  color: var(--text-color);
 }
 
 .open-post__photo {
